@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Splitr",
-  description: "The smartest way to split expenses with friends",
+  description: "Money Management within group.",
 };
 
 export default function RootLayout({ children }) {

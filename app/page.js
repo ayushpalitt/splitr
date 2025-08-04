@@ -1,13 +1,11 @@
-'use client';
+import React from 'react'
 
-import { Button } from "@/components/ui/button";  // <-- MUST be here
-
-export default function Home() {
+const page = () => {
   return (
     <div>
-      Subscribe Ayush
-      <br />
-      <Button variant="destructive">Subscribe</Button>
+      <h1 className='text-2xl font-bold text-red-500 flex items-center justify-center'>Hello World!</h1>
     </div>
-  );
+  )
 }
+
+export default page
